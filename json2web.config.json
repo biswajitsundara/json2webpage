@@ -1,0 +1,6 @@
+{
+  "inputfile": "sample.json",
+  "outfile": "sample.html",
+  "pageTitle": "Hello World",
+  "headingText": "Hello World"
+}

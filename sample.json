@@ -1,0 +1,42 @@
+{
+    "Title": "jshakjshdjahsjdsa",
+    "todo":{
+        "id": 1
+    },
+    "products": [
+      {
+        "id": 1,
+        "name": "Product A",
+        "sales": {
+          "North America": 2000,
+          "Europe": 1500,
+          "Asia": 1200,
+          "South America": 800,
+          "Africa": 300
+        }
+      },
+      {
+        "id": 2,
+        "name": "Product B",
+        "sales": {
+          "North America": 1800,
+          "Europe": 1400,
+          "Asia": 900,
+          "South America": 600,
+          "Africa": 250
+        }
+      },
+      {
+        "id": 3,
+        "name": "Product C",
+        "sales": {
+          "North America": 2200,
+          "Europe": 1200,
+          "Asia": 800,
+          "South America": 500,
+          "Africa": 200
+        }
+      }
+    ]
+  }
+  
