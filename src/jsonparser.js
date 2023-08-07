@@ -11,5 +11,5 @@ export async function parseJsonFile(filePath) {
 }
 
 export async function getJsonArray(jsonObject, label) {
-  return jsonObject[label];
+  return (label) ? jsonObject[label] : jsonObject;
 }

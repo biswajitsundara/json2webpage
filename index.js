@@ -8,4 +8,4 @@ async function json2webpage(config) {
   await saveFileData(htmlData, configData.output);
 }
 
-//json2webpage();
+json2webpage();
