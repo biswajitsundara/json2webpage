@@ -8,14 +8,12 @@ export async function getTableData(dataObject) {
   //Table Heading
   tableHTML += `<tr>`;
 
-    for (const key in dataObject[0]) {
-      tableHTML += `<th>${key}</th>`;
-    }
-    tableHTML += "</tr>";
+  for (const key in dataObject[0]) {
+    tableHTML += `<th>${key}</th>`;
+  }
+  tableHTML += "</tr>";
 
   for (let i = 1; i < dataObject.length; i++) {
-    
-
     //Table body
     tableHTML += `<tr>`;
     for (const key in dataObject[i]) {
@@ -35,7 +33,7 @@ export async function getTableData(dataObject) {
 export async function getHTML(dataObject) {
   const tableData = await getTableData(dataObject);
 
-  const style= `
+  const style = `
 
 table, td, th {  
   border: 1px solid #ddd;
@@ -65,8 +63,7 @@ body{
 h1{
   text-align: center;
 }
-  `
- 
+  `;
 
   const html = `
     <html>

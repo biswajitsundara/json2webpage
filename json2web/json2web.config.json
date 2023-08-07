@@ -1,0 +1,11 @@
+{
+  "headerTitle": "Hello World",
+  "body": {
+    "component": "table",
+    "datasource": "sample.json",
+    "key": "products"
+  },
+  "footer": "© 2023 HelloApp. All rights reserved.",
+
+  "output": "sample.html"
+}

@@ -10,8 +10,6 @@ export async function parseJsonFile(filePath) {
   }
 }
 
-export async function getJsonArray(jsonObject, label){
-   return jsonObject[label];
+export async function getJsonArray(jsonObject, label) {
+  return jsonObject[label];
 }
-
-
